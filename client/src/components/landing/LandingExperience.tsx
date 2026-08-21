@@ -1,36 +1,75 @@
-/** Tactile Ledger entry experience: native scroll, discrete scene changes, keyboard progression, and reduced-motion static fallback. */
+/** Workshop Film entry: one intentional scroll-triggered 45-second stop-motion event with no text inside the video aperture. */
 import { useEffect, useRef, useState } from "react";
-import { ArrowDown, ArrowRight, Check, ChevronLeft, ChevronRight, SkipForward } from "lucide-react";
+import { ArrowDown, ArrowRight, Pause, Play, SkipForward, Volume2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { track } from "@/lib/analytics";
 import { useIsMobile } from "@/hooks/useMobile";
 import TactileCircuit from "./TactileCircuit";
-import ScrollFrameSequence from "./ScrollFrameSequence";
-import { stopMotionFrames } from "@/lib/stopMotionFrames";
 
 type LandingExperienceProps = { onEnter: () => void; onSkip: () => void };
 
-const scenes = [
-  { title: "Seed", eyebrow: "01 / A QUESTION", copy: "A question starts small.", detail: "One chip. One surface. One place to begin." },
-  { title: "Placement", eyebrow: "02 / THE BENCH", copy: "Put it on the bench.", detail: "Every system needs a real place to be tested." },
-  { title: "Labels", eyebrow: "03 / THE MAP", copy: "Name the connections.", detail: "Pins, paths, and the discipline of knowing what they do." },
-  { title: "Solder", eyebrow: "04 / FIRST BOND", copy: "Make the first bond.", detail: "A circuit becomes tangible when its parts are joined." },
-  { title: "Wiring", eyebrow: "05 / ROUTE", copy: "Route a signal.", detail: "The line from one idea to another has to be deliberate." },
-  { title: "Power", eyebrow: "06 / POWER", copy: "Give it power.", detail: "Now measure what wakes up." },
-  { title: "System", eyebrow: "07 / TEST", copy: "Test what changed.", detail: "A prototype makes the learning visible." },
-  { title: "Community", eyebrow: "08 / CHIPTECH", copy: "Build it together.", detail: "ChipTech brings curious builders together at RV University." },
-];
+const workshopFilm = "/manus-storage/chiptech-clay-workshop-film-45s_a00fc2b8.mp4";
+const workshopPoster = "/manus-storage/chiptech-clay-workshop-film-poster_8c6785a4.jpg";
 
 export default function LandingExperience({ onEnter, onSkip }: LandingExperienceProps) {
-  const shellRef = useRef<HTMLElement>(null);
-  const [activeScene, setActiveScene] = useState(0);
+  const videoRef = useRef<HTMLVideoElement>(null);
   const [reducedMotion, setReducedMotion] = useState(false);
-  const [transitioning, setTransitioning] = useState(false);
-  const [activeFrame, setActiveFrame] = useState(0);
-  const [frameMode, setFrameMode] = useState(false);
-  const activeRef = useRef(0);
+  const [started, setStarted] = useState(false);
+  const [soundBlocked, setSoundBlocked] = useState(false);
+  const [finishing, setFinishing] = useState(false);
   const isMobile = useIsMobile();
-  const activeScenes = isMobile ? [scenes[0], scenes[2], scenes[5], scenes[7]] : scenes;
+
+  const unlockScroll = () => { document.body.style.overflow = ""; };
+
+  const finish = () => {
+    if (finishing) return;
+    setFinishing(true);
+    unlockScroll();
+    track("landing_completed");
+    track("homepage_transition_completed");
+    window.setTimeout(onEnter, reducedMotion ? 150 : 650);
+  };
+
+  const startFilm = async () => {
+    if (started || reducedMotion) return;
+    const video = videoRef.current;
+    if (!video) return;
+    setStarted(true);
+    document.body.style.overflow = "hidden";
+    track("landing_started");
+    track("homepage_transition_started");
+    video.currentTime = 0;
+    video.volume = 0.38;
+    video.muted = false;
+    try {
+      await video.play();
+    } catch {
+      setSoundBlocked(true);
+      video.muted = true;
+      await video.play().catch(() => undefined);
+    }
+  };
+
+  const enableSound = async () => {
+    const video = videoRef.current;
+    if (!video) return;
+    video.muted = false;
+    video.volume = 0.38;
+    try {
+      await video.play();
+      setSoundBlocked(false);
+    } catch {
+      video.muted = true;
+    }
+  };
+
+  const skip = () => {
+    const video = videoRef.current;
+    if (video) { video.pause(); video.currentTime = 0; }
+    unlockScroll();
+    track("landing_skipped");
+    onSkip();
+  };
 
   useEffect(() => {
     const query = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -41,107 +80,39 @@ export default function LandingExperience({ onEnter, onSkip }: LandingExperience
   }, []);
 
   useEffect(() => {
-    const query = window.matchMedia("(min-width: 768px)");
-    const syncFrameMode = () => setFrameMode(query.matches);
-    syncFrameMode();
-    query.addEventListener("change", syncFrameMode);
-    return () => query.removeEventListener("change", syncFrameMode);
-  }, []);
-
-  useEffect(() => {
-    track("landing_started");
-    if (reducedMotion) return;
-    let frame = 0;
-    const update = () => {
-      frame = 0;
-      const shell = shellRef.current;
-      if (!shell) return;
-      const available = Math.max(1, shell.offsetHeight - window.innerHeight);
-      const progress = Math.min(0.999, Math.max(0, -shell.getBoundingClientRect().top / available));
-      const nextScene = Math.min(activeScenes.length - 1, Math.floor(progress * activeScenes.length));
-      const nextFrame = Math.min(stopMotionFrames.length - 1, Math.floor(progress * (stopMotionFrames.length - 1)));
-      shell.style.setProperty("--scene-progress", `${Math.round(progress * 12) / 12}`);
-      setActiveFrame((currentFrame) => currentFrame === nextFrame ? currentFrame : nextFrame);
-      if (activeRef.current !== nextScene) {
-        activeRef.current = nextScene;
-        setActiveScene(nextScene);
-        track("landing_scene_viewed", { scene: nextScene + 1 });
-      }
+    if (reducedMotion || isMobile || started) return;
+    const onWheel = (event: WheelEvent) => { if (event.deltaY > 4) void startFilm(); };
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (["ArrowDown", "PageDown", " ", "Enter"].includes(event.key)) void startFilm();
     };
-    const onScroll = () => {
-      if (!frame) frame = window.requestAnimationFrame(update);
-    };
-    update();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => {
-      if (frame) window.cancelAnimationFrame(frame);
-      window.removeEventListener("scroll", onScroll);
-    };
-  }, [activeScenes.length, reducedMotion]);
+    window.addEventListener("wheel", onWheel, { passive: true, once: true });
+    window.addEventListener("keydown", onKeyDown, { once: true });
+    return () => { window.removeEventListener("wheel", onWheel); window.removeEventListener("keydown", onKeyDown); };
+  }, [isMobile, reducedMotion, started]);
 
-  const moveToScene = (scene: number) => {
-    const shell = shellRef.current;
-    if (!shell) return;
-    const target = shell.getBoundingClientRect().top + window.scrollY + ((shell.offsetHeight - window.innerHeight) * scene) / Math.max(1, activeScenes.length - 1);
-    window.scrollTo({ top: target, behavior: "smooth" });
-  };
-
-  const beginTransition = () => {
-    if (transitioning) return;
-    setTransitioning(true);
-    track("homepage_transition_started");
-    window.setTimeout(() => {
-      track("landing_completed");
-      track("homepage_transition_completed");
-      onEnter();
-    }, reducedMotion ? 180 : 1200);
-  };
-
-  const skip = () => {
-    track("landing_skipped");
-    onSkip();
-  };
+  useEffect(() => () => unlockScroll(), []);
 
   if (reducedMotion) {
-    return (
-      <section className="intro-static-shell" aria-labelledby="intro-static-title">
-        <div className="intro-static-grid">
-          <div><p className="kicker">RV UNIVERSITY / BENGALURU</p><h1 id="intro-static-title">FROM A CHIP TO A <em>COMMUNITY.</em></h1><p className="intro-static-copy">ChipTech is a student technical club for practical learning across circuits, embedded systems, and hardware prototyping.</p></div>
-          <TactileCircuit scene={7} staticMode />
-        </div>
-        <Button className="paper-cta" onClick={beginTransition}>Enter ChipTech <ArrowRight size={17} /></Button>
-      </section>
-    );
+    return <section className="intro-static-shell" aria-labelledby="intro-static-title"><div className="intro-static-grid"><div><p className="kicker">RV UNIVERSITY / BENGALURU</p><h1 id="intro-static-title">FROM A CHIP TO A <em>COMMUNITY.</em></h1><p className="intro-static-copy">ChipTech is a student technical club for practical learning across circuits, embedded systems, and hardware prototyping.</p></div><TactileCircuit scene={7} staticMode /></div><Button className="paper-cta" onClick={finish}>Enter ChipTech <ArrowRight size={17} /></Button></section>;
   }
 
-  const current = activeScenes[activeScene];
   return (
-    <section className={`landing-experience ${transitioning ? "landing-transitioning" : ""}`} ref={shellRef} id="intro" aria-label="ChipTech introduction">
-      <div className="intro-sticky">
-        <div className="intro-toolbar">
-          <div className="intro-brand" aria-label="ChipTech, RV University Bengaluru"><span>CT</span><strong>CHIP<span>TECH</span><small>RVU / BLR</small></strong></div>
-          <button className="intro-skip" onClick={skip}><SkipForward size={15} /> Skip intro</button>
-          <p aria-live="polite">Scene {activeScene + 1} of {activeScenes.length}: {current.title}</p>
-        </div>
-        <div className="intro-progress" aria-hidden="true">{activeScenes.map((scene, index) => <span className={index <= activeScene ? "is-seen" : ""} key={scene.title} />)}</div>
-        <div className="intro-stage" data-scene={activeScenes[activeScene].title === "Seed" ? 0 : scenes.indexOf(activeScenes[activeScene])}>
-          {frameMode && <ScrollFrameSequence frameIndex={activeFrame} />}
-          <TactileCircuit scene={scenes.indexOf(activeScenes[activeScene])} />
-          <aside className="intro-proof-strip" aria-label="Intro scene record"><span>SCENE RECORD</span><strong>RVU / BENCH / {String(activeScene + 1).padStart(2, "0")}</strong><i /><small>FROM COMPONENT TO COMMUNITY</small></aside>
-          <div className="intro-copy-block" aria-live="polite">
-            <p className="kicker">{current.eyebrow}</p>
-            <h1>{current.copy}</h1>
-            <p>{current.detail}</p>
-            {activeScene === activeScenes.length - 1 && <Button className="intro-enter" onClick={beginTransition}>Enter ChipTech <ArrowRight size={17} /></Button>}
-          </div>
-        </div>
-        <div className="intro-controls">
-          <button onClick={() => moveToScene(Math.max(0, activeScene - 1))} disabled={activeScene === 0} aria-label="Previous intro scene"><ChevronLeft size={19} /></button>
-          {activeScene === activeScenes.length - 1 ? <button className="intro-next-label" onClick={beginTransition}>Enter site <Check size={16} /></button> : <button className="intro-next-label" onClick={() => moveToScene(activeScene + 1)}>Next scene <ChevronRight size={16} /></button>}
-        </div>
-        <span className="intro-scroll-cue"><ArrowDown size={14} /> Scroll to assemble</span>
+    <section className={`workshop-film-entry ${started ? "film-is-running" : "film-is-ready"} ${finishing ? "film-is-finishing" : ""}`} aria-labelledby="workshop-film-title">
+      <div className="workshop-film-frame" aria-label="Original ChipTech workshop stop-motion film">
+        <video ref={videoRef} poster={workshopPoster} playsInline preload="metadata" onEnded={finish} onContextMenu={(event) => event.preventDefault()}>
+          <source src={workshopFilm} type="video/mp4" />
+        </video>
+        <div className="film-corner film-corner-tl" aria-hidden="true" /><div className="film-corner film-corner-br" aria-hidden="true" />
       </div>
-      <div className="sr-only">{scenes.map((scene, index) => <article key={scene.title}><h2>Scene {index + 1}: {scene.title}</h2><p>{scene.copy} {scene.detail}</p></article>)}</div>
+      <div className="workshop-film-ui">
+        <div className="film-brand" aria-label="ChipTech, RV University Bengaluru"><span>CT</span><strong>CHIP<span>TECH</span><small>RVU / BLR</small></strong><i /></div>
+        <div className="film-copy"><p className="kicker">WORKSHOP FILM / 45 SECONDS</p><h1 id="workshop-film-title">A SMALL THING<br />STARTS TO <em>MOVE.</em></h1><p>An original miniature workshop story about the first useful connection.</p></div>
+        <aside className="film-ledger-docket" aria-label="ChipTech workshop film evidence"><span>FIELD LEDGER / 01</span><strong>RVU BUILD BENCH</strong><p>Film record: original workshop study.</p><div><i /> <small>TRACE STATUS: ACTIVE</small></div></aside>
+        {!started && <div className="film-prompt"><span className="prompt-line" /><p>{isMobile ? "Tap to play the workshop film" : "Scroll once to start the workshop film"}</p><Button className="paper-cta" onClick={() => void startFilm()}><Play size={16} /> Play film</Button></div>}
+        {started && <div className="film-running-controls"><span><Pause size={14} /> WORKSHOP IN PROGRESS</span>{soundBlocked && <button onClick={() => void enableSound()}><Volume2 size={15} /> Enable workshop sound</button>}<button onClick={skip}><SkipForward size={15} /> Skip film</button></div>}
+        <div className="film-rail" aria-hidden="true"><span /><span /><span /><span /><span /><span /><span /><span /><span /></div>
+      </div>
+      <div className="sr-only"><p>The film shows Nim and Pip, two original workshop creatures, building a small electronics prototype together. It contains no essential text or controls inside the video frame.</p></div>
     </section>
   );
 }

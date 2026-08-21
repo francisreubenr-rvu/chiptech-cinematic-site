@@ -94,3 +94,10 @@ Use the existing microchip symbol as the mark, elevated through a larger header 
 ## Prompt-Specified Direction: Tactile Ledger
 
 The current user-supplied specification supersedes the earlier Signal Nocturne direction. The site now uses a dark engineering-notebook ground with one disciplined cyan signal, off-white paper cut-outs, hand-stamped labels, copper solder accents, and controlled stop-motion scene holds. It tells a visual story from a single component to a student community, while all essential information remains accessible in semantic HTML. The intro presents the full ChipTech RVU / BLR lockup before the scene narrative begins, and the functional homepage uses documented records and visibly-labelled content gaps instead of fabricated club data.
+
+## Style Decisions: Film-Ledger Refinement
+
+- The first visual moment contains a direct, readable proof ledger and an external film docket so the cinematic image is never the sole source of trust.
+- The ChipTech lockup is treated as a large engineered object: microchip mark, high-weight clipped wordmark, cyan route line, and `RVU / BLR` instrument sublabel.
+- Cyan is restricted to active signal paths, proof status, navigation, and key actions. Copper denotes physical work, solder, paper registration, and human intervention.
+- Film copy and controls remain outside the moving image aperture. The film contains no essential typography, captions, or controls.

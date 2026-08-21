@@ -1,0 +1,12 @@
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-workshop-film-45s.mp4 (size: 6259294 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/chiptech-workshop-film-45s_340fa3ce.mp4
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-workshop-film-poster.jpg (size: 90117 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/chiptech-workshop-film-poster_924d78b1.jpg
+
+========== Upload Summary ==========
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-workshop-film-45s.mp4 -> /manus-storage/chiptech-workshop-film-45s_340fa3ce.mp4
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-workshop-film-poster.jpg -> /manus-storage/chiptech-workshop-film-poster_924d78b1.jpg
+=====================================
+Total: 2, Success: 2, Failed: 0
