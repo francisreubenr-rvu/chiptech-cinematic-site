@@ -90,3 +90,7 @@ Use the existing microchip symbol as the mark, elevated through a larger header 
 - Every major visual area carries a concrete proof cue: an event date, source label, build artifact, recorded outcome, or an official evidence capture.
 - The ChipTech lockup uses an engineered Space Grotesk wordmark with a clipped `T`, microchip mark, cyan signal line, and monospace `RVU / BLR` sublabel.
 - Abstract circuit diagrams remain supportive. Real records, student-event evidence, hardware surfaces, and documented outcomes carry the dominant visual proof.
+
+## Prompt-Specified Direction: Tactile Ledger
+
+The current user-supplied specification supersedes the earlier Signal Nocturne direction. The site now uses a dark engineering-notebook ground with one disciplined cyan signal, off-white paper cut-outs, hand-stamped labels, copper solder accents, and controlled stop-motion scene holds. It tells a visual story from a single component to a student community, while all essential information remains accessible in semantic HTML. The intro presents the full ChipTech RVU / BLR lockup before the scene narrative begins, and the functional homepage uses documented records and visibly-labelled content gaps instead of fabricated club data.
