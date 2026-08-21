@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import { track } from "@/lib/analytics";
 import { useIsMobile } from "@/hooks/useMobile";
 import TactileCircuit from "./TactileCircuit";
+import ScrollFrameSequence from "./ScrollFrameSequence";
+import { stopMotionFrames } from "@/lib/stopMotionFrames";
 
 type LandingExperienceProps = { onEnter: () => void; onSkip: () => void };
 
@@ -24,6 +26,8 @@ export default function LandingExperience({ onEnter, onSkip }: LandingExperience
   const [activeScene, setActiveScene] = useState(0);
   const [reducedMotion, setReducedMotion] = useState(false);
   const [transitioning, setTransitioning] = useState(false);
+  const [activeFrame, setActiveFrame] = useState(0);
+  const [frameMode, setFrameMode] = useState(false);
   const activeRef = useRef(0);
   const isMobile = useIsMobile();
   const activeScenes = isMobile ? [scenes[0], scenes[2], scenes[5], scenes[7]] : scenes;
@@ -37,6 +41,14 @@ export default function LandingExperience({ onEnter, onSkip }: LandingExperience
   }, []);
 
   useEffect(() => {
+    const query = window.matchMedia("(min-width: 768px)");
+    const syncFrameMode = () => setFrameMode(query.matches);
+    syncFrameMode();
+    query.addEventListener("change", syncFrameMode);
+    return () => query.removeEventListener("change", syncFrameMode);
+  }, []);
+
+  useEffect(() => {
     track("landing_started");
     if (reducedMotion) return;
     let frame = 0;
@@ -47,7 +59,9 @@ export default function LandingExperience({ onEnter, onSkip }: LandingExperience
       const available = Math.max(1, shell.offsetHeight - window.innerHeight);
       const progress = Math.min(0.999, Math.max(0, -shell.getBoundingClientRect().top / available));
       const nextScene = Math.min(activeScenes.length - 1, Math.floor(progress * activeScenes.length));
+      const nextFrame = Math.min(stopMotionFrames.length - 1, Math.floor(progress * (stopMotionFrames.length - 1)));
       shell.style.setProperty("--scene-progress", `${Math.round(progress * 12) / 12}`);
+      setActiveFrame((currentFrame) => currentFrame === nextFrame ? currentFrame : nextFrame);
       if (activeRef.current !== nextScene) {
         activeRef.current = nextScene;
         setActiveScene(nextScene);
@@ -111,7 +125,9 @@ export default function LandingExperience({ onEnter, onSkip }: LandingExperience
         </div>
         <div className="intro-progress" aria-hidden="true">{activeScenes.map((scene, index) => <span className={index <= activeScene ? "is-seen" : ""} key={scene.title} />)}</div>
         <div className="intro-stage" data-scene={activeScenes[activeScene].title === "Seed" ? 0 : scenes.indexOf(activeScenes[activeScene])}>
+          {frameMode && <ScrollFrameSequence frameIndex={activeFrame} />}
           <TactileCircuit scene={scenes.indexOf(activeScenes[activeScene])} />
+          <aside className="intro-proof-strip" aria-label="Intro scene record"><span>SCENE RECORD</span><strong>RVU / BENCH / {String(activeScene + 1).padStart(2, "0")}</strong><i /><small>FROM COMPONENT TO COMMUNITY</small></aside>
           <div className="intro-copy-block" aria-live="polite">
             <p className="kicker">{current.eyebrow}</p>
             <h1>{current.copy}</h1>

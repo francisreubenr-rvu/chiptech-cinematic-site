@@ -1,0 +1,580 @@
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_000.jpg (size: 48215 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_000_df6ab9f0.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_001.jpg (size: 48134 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_001_983b9cb2.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_002.jpg (size: 36365 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_002_2fdb76af.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_003.jpg (size: 36430 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_003_707427a9.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_004.jpg (size: 36757 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_004_8d3ed518.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_005.jpg (size: 36739 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_005_2b23fef4.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_006.jpg (size: 36913 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_006_a186acb5.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_007.jpg (size: 36976 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_007_f2513531.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_008.jpg (size: 36982 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_008_91671398.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_009.jpg (size: 37006 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_009_3319c2a5.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_010.jpg (size: 36996 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_010_bd4b45ad.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_011.jpg (size: 36972 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_011_3fd47f39.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_012.jpg (size: 36580 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_012_378eeea0.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_013.jpg (size: 36485 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_013_94ff9863.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_014.jpg (size: 36650 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_014_3fd7a4cb.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_015.jpg (size: 36565 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_015_b8da27cd.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_016.jpg (size: 36565 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_016_4355026b.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_017.jpg (size: 36547 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_017_3dacc7f4.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_018.jpg (size: 36595 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_018_e7c51a2f.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_019.jpg (size: 36885 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_019_9b6d2cb2.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_020.jpg (size: 37029 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_020_a8b32af0.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_021.jpg (size: 36985 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_021_8b3bdc24.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_022.jpg (size: 38490 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_022_a3b8e9ff.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_023.jpg (size: 38541 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_023_74a178f9.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_024.jpg (size: 38516 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_024_cd4d37f9.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_025.jpg (size: 38569 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_025_8bd6970a.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_026.jpg (size: 39008 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_026_77af5dd9.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_027.jpg (size: 39033 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_027_34eff6a0.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_028.jpg (size: 39190 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_028_23b02213.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_029.jpg (size: 39193 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_029_8d3b9f0e.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_030.jpg (size: 39291 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_030_d53fa282.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_031.jpg (size: 39362 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_031_d0e5f260.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_032.jpg (size: 39396 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_032_3f6596f2.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_033.jpg (size: 39476 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_033_33d93412.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_034.jpg (size: 39612 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_034_1612b634.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_035.jpg (size: 39686 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_035_54d4be18.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_036.jpg (size: 39813 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_036_c32f59d8.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_037.jpg (size: 39833 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_037_7d10b319.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_038.jpg (size: 39891 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_038_9992ec8b.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_039.jpg (size: 39830 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_039_0ee3723b.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_040.jpg (size: 39891 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_040_39844de5.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_041.jpg (size: 39920 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_041_01b101bc.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_042.jpg (size: 40386 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_042_6dbd3297.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_043.jpg (size: 40375 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_043_09ed4416.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_044.jpg (size: 40299 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_044_733284eb.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_045.jpg (size: 40259 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_045_e61a69c8.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_046.jpg (size: 40769 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_046_299018de.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_047.jpg (size: 40762 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_047_33983b36.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_048.jpg (size: 40663 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_048_4df7d846.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_049.jpg (size: 40574 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_049_c7b9eda6.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_050.jpg (size: 52362 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_050_0829edf1.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_051.jpg (size: 52522 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_051_bcdf844a.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_052.jpg (size: 52863 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_052_9038c956.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_053.jpg (size: 52899 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_053_78e35466.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_054.jpg (size: 52971 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_054_fa48c24a.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_055.jpg (size: 52860 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_055_fd20ac51.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_056.jpg (size: 52845 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_056_3f715094.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_057.jpg (size: 52788 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_057_7eab9849.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_058.jpg (size: 53166 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_058_3e62d911.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_059.jpg (size: 53122 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_059_46890e26.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_060.jpg (size: 52990 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_060_ac86a7ec.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_061.jpg (size: 52998 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_061_d46682b9.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_062.jpg (size: 53161 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_062_686e2aec.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_063.jpg (size: 53155 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_063_f54086dd.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_064.jpg (size: 52577 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_064_5ff09272.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_065.jpg (size: 52449 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_065_8133a057.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_066.jpg (size: 52576 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_066_f4a2cb66.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_067.jpg (size: 52585 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_067_10208532.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_068.jpg (size: 52625 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_068_5cb5e202.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_069.jpg (size: 52623 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_069_0a886123.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_070.jpg (size: 52626 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_070_6fed5d0b.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_071.jpg (size: 52607 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_071_70f5317d.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_072.jpg (size: 52610 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_072_e44ebb1c.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_073.jpg (size: 52579 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_073_61b3f46b.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_074.jpg (size: 52643 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_074_05d2a70c.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_075.jpg (size: 52666 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_075_9cd0dc43.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_076.jpg (size: 52831 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_076_00727bc6.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_077.jpg (size: 52810 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_077_b69d5f60.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_078.jpg (size: 52847 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_078_97b96a0c.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_079.jpg (size: 52861 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_079_2c25e530.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_080.jpg (size: 53076 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_080_cfe30c01.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_081.jpg (size: 53070 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_081_c584ebcd.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_082.jpg (size: 53126 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_082_2787e42d.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_083.jpg (size: 53043 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_083_2bb9fb15.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_084.jpg (size: 53035 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_084_1d45d92f.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_085.jpg (size: 53036 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_085_210b8ebd.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_086.jpg (size: 52827 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_086_4a83bddd.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_087.jpg (size: 52803 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_087_5b8842f2.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_088.jpg (size: 52932 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_088_c78a8793.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_089.jpg (size: 52938 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_089_41938eec.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_090.jpg (size: 52996 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_090_2ef27af8.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_091.jpg (size: 52991 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_091_fc66c6cd.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_092.jpg (size: 53011 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_092_2314b80d.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_093.jpg (size: 53048 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_093_8e8ef8f2.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_094.jpg (size: 52661 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_094_8935d448.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_095.jpg (size: 52657 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_095_a5c4b749.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_096.jpg (size: 53120 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_096_b484c69e.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_097.jpg (size: 53108 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_097_5f1bdbb3.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_098.jpg (size: 53055 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_098_6f1de816.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_099.jpg (size: 53048 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_099_be4d9326.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_100.jpg (size: 53031 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_100_74a4681a.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_101.jpg (size: 53000 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_101_45f9a15d.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_102.jpg (size: 52938 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_102_ceda8ab7.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_103.jpg (size: 52899 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_103_bcba4f62.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_104.jpg (size: 53083 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_104_8160072e.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_105.jpg (size: 53129 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_105_3b5b7f9e.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_106.jpg (size: 52801 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_106_d54c2f3a.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_107.jpg (size: 52774 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_107_ea3cd5dc.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_108.jpg (size: 53366 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_108_f3675940.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_109.jpg (size: 53409 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_109_b56177f5.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_110.jpg (size: 52986 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_110_dcb6f143.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_111.jpg (size: 52987 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_111_aeda817f.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_112.jpg (size: 53202 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_112_209ff443.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_113.jpg (size: 53255 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_113_ae8b66ba.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_114.jpg (size: 53027 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_114_1b7369b9.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_115.jpg (size: 53015 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_115_6908c3fd.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_116.jpg (size: 53115 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_116_cdba1112.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_117.jpg (size: 53119 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_117_edf90ad2.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_118.jpg (size: 53112 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_118_a15edbd9.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_119.jpg (size: 53172 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_119_c9d2fa47.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_120.jpg (size: 53307 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_120_19c4b0c6.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_121.jpg (size: 53298 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_121_fb2387b2.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_122.jpg (size: 52490 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_122_a17c9b12.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_123.jpg (size: 52447 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_123_95cc2e2d.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_124.jpg (size: 52769 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_124_1320aea5.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_125.jpg (size: 52758 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_125_b32b0b33.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_126.jpg (size: 52337 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_126_ea8a90e3.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_127.jpg (size: 52346 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_127_74813683.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_128.jpg (size: 51875 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_128_e1f15675.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_129.jpg (size: 51877 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_129_b27361c3.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_130.jpg (size: 51341 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_130_0e6ef18d.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_131.jpg (size: 51323 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_131_05352ad3.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_132.jpg (size: 51148 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_132_6bd392e2.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_133.jpg (size: 51174 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_133_c74edeee.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_134.jpg (size: 50989 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_134_0e3a8f86.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_135.jpg (size: 50953 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_135_5836e6f3.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_136.jpg (size: 50963 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_136_68e09872.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_137.jpg (size: 50940 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_137_e7a7d6a6.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_138.jpg (size: 50947 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_138_8975d9a6.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_139.jpg (size: 50935 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_139_33664fdc.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_140.jpg (size: 50962 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_140_9f619e18.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_141.jpg (size: 50967 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_141_c8c99c8c.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_142.jpg (size: 50983 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_142_ba57b65b.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_143.jpg (size: 50973 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/frame_143_c821d606.jpg
+
+========== Upload Summary ==========
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_000.jpg -> /manus-storage/frame_000_df6ab9f0.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_001.jpg -> /manus-storage/frame_001_983b9cb2.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_002.jpg -> /manus-storage/frame_002_2fdb76af.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_003.jpg -> /manus-storage/frame_003_707427a9.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_004.jpg -> /manus-storage/frame_004_8d3ed518.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_005.jpg -> /manus-storage/frame_005_2b23fef4.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_006.jpg -> /manus-storage/frame_006_a186acb5.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_007.jpg -> /manus-storage/frame_007_f2513531.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_008.jpg -> /manus-storage/frame_008_91671398.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_009.jpg -> /manus-storage/frame_009_3319c2a5.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_010.jpg -> /manus-storage/frame_010_bd4b45ad.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_011.jpg -> /manus-storage/frame_011_3fd47f39.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_012.jpg -> /manus-storage/frame_012_378eeea0.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_013.jpg -> /manus-storage/frame_013_94ff9863.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_014.jpg -> /manus-storage/frame_014_3fd7a4cb.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_015.jpg -> /manus-storage/frame_015_b8da27cd.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_016.jpg -> /manus-storage/frame_016_4355026b.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_017.jpg -> /manus-storage/frame_017_3dacc7f4.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_018.jpg -> /manus-storage/frame_018_e7c51a2f.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_019.jpg -> /manus-storage/frame_019_9b6d2cb2.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_020.jpg -> /manus-storage/frame_020_a8b32af0.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_021.jpg -> /manus-storage/frame_021_8b3bdc24.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_022.jpg -> /manus-storage/frame_022_a3b8e9ff.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_023.jpg -> /manus-storage/frame_023_74a178f9.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_024.jpg -> /manus-storage/frame_024_cd4d37f9.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_025.jpg -> /manus-storage/frame_025_8bd6970a.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_026.jpg -> /manus-storage/frame_026_77af5dd9.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_027.jpg -> /manus-storage/frame_027_34eff6a0.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_028.jpg -> /manus-storage/frame_028_23b02213.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_029.jpg -> /manus-storage/frame_029_8d3b9f0e.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_030.jpg -> /manus-storage/frame_030_d53fa282.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_031.jpg -> /manus-storage/frame_031_d0e5f260.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_032.jpg -> /manus-storage/frame_032_3f6596f2.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_033.jpg -> /manus-storage/frame_033_33d93412.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_034.jpg -> /manus-storage/frame_034_1612b634.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_035.jpg -> /manus-storage/frame_035_54d4be18.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_036.jpg -> /manus-storage/frame_036_c32f59d8.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_037.jpg -> /manus-storage/frame_037_7d10b319.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_038.jpg -> /manus-storage/frame_038_9992ec8b.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_039.jpg -> /manus-storage/frame_039_0ee3723b.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_040.jpg -> /manus-storage/frame_040_39844de5.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_041.jpg -> /manus-storage/frame_041_01b101bc.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_042.jpg -> /manus-storage/frame_042_6dbd3297.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_043.jpg -> /manus-storage/frame_043_09ed4416.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_044.jpg -> /manus-storage/frame_044_733284eb.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_045.jpg -> /manus-storage/frame_045_e61a69c8.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_046.jpg -> /manus-storage/frame_046_299018de.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_047.jpg -> /manus-storage/frame_047_33983b36.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_048.jpg -> /manus-storage/frame_048_4df7d846.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_049.jpg -> /manus-storage/frame_049_c7b9eda6.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_050.jpg -> /manus-storage/frame_050_0829edf1.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_051.jpg -> /manus-storage/frame_051_bcdf844a.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_052.jpg -> /manus-storage/frame_052_9038c956.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_053.jpg -> /manus-storage/frame_053_78e35466.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_054.jpg -> /manus-storage/frame_054_fa48c24a.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_055.jpg -> /manus-storage/frame_055_fd20ac51.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_056.jpg -> /manus-storage/frame_056_3f715094.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_057.jpg -> /manus-storage/frame_057_7eab9849.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_058.jpg -> /manus-storage/frame_058_3e62d911.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_059.jpg -> /manus-storage/frame_059_46890e26.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_060.jpg -> /manus-storage/frame_060_ac86a7ec.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_061.jpg -> /manus-storage/frame_061_d46682b9.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_062.jpg -> /manus-storage/frame_062_686e2aec.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_063.jpg -> /manus-storage/frame_063_f54086dd.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_064.jpg -> /manus-storage/frame_064_5ff09272.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_065.jpg -> /manus-storage/frame_065_8133a057.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_066.jpg -> /manus-storage/frame_066_f4a2cb66.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_067.jpg -> /manus-storage/frame_067_10208532.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_068.jpg -> /manus-storage/frame_068_5cb5e202.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_069.jpg -> /manus-storage/frame_069_0a886123.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_070.jpg -> /manus-storage/frame_070_6fed5d0b.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_071.jpg -> /manus-storage/frame_071_70f5317d.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_072.jpg -> /manus-storage/frame_072_e44ebb1c.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_073.jpg -> /manus-storage/frame_073_61b3f46b.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_074.jpg -> /manus-storage/frame_074_05d2a70c.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_075.jpg -> /manus-storage/frame_075_9cd0dc43.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_076.jpg -> /manus-storage/frame_076_00727bc6.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_077.jpg -> /manus-storage/frame_077_b69d5f60.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_078.jpg -> /manus-storage/frame_078_97b96a0c.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_079.jpg -> /manus-storage/frame_079_2c25e530.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_080.jpg -> /manus-storage/frame_080_cfe30c01.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_081.jpg -> /manus-storage/frame_081_c584ebcd.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_082.jpg -> /manus-storage/frame_082_2787e42d.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_083.jpg -> /manus-storage/frame_083_2bb9fb15.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_084.jpg -> /manus-storage/frame_084_1d45d92f.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_085.jpg -> /manus-storage/frame_085_210b8ebd.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_086.jpg -> /manus-storage/frame_086_4a83bddd.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_087.jpg -> /manus-storage/frame_087_5b8842f2.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_088.jpg -> /manus-storage/frame_088_c78a8793.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_089.jpg -> /manus-storage/frame_089_41938eec.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_090.jpg -> /manus-storage/frame_090_2ef27af8.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_091.jpg -> /manus-storage/frame_091_fc66c6cd.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_092.jpg -> /manus-storage/frame_092_2314b80d.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_093.jpg -> /manus-storage/frame_093_8e8ef8f2.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_094.jpg -> /manus-storage/frame_094_8935d448.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_095.jpg -> /manus-storage/frame_095_a5c4b749.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_096.jpg -> /manus-storage/frame_096_b484c69e.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_097.jpg -> /manus-storage/frame_097_5f1bdbb3.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_098.jpg -> /manus-storage/frame_098_6f1de816.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_099.jpg -> /manus-storage/frame_099_be4d9326.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_100.jpg -> /manus-storage/frame_100_74a4681a.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_101.jpg -> /manus-storage/frame_101_45f9a15d.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_102.jpg -> /manus-storage/frame_102_ceda8ab7.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_103.jpg -> /manus-storage/frame_103_bcba4f62.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_104.jpg -> /manus-storage/frame_104_8160072e.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_105.jpg -> /manus-storage/frame_105_3b5b7f9e.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_106.jpg -> /manus-storage/frame_106_d54c2f3a.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_107.jpg -> /manus-storage/frame_107_ea3cd5dc.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_108.jpg -> /manus-storage/frame_108_f3675940.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_109.jpg -> /manus-storage/frame_109_b56177f5.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_110.jpg -> /manus-storage/frame_110_dcb6f143.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_111.jpg -> /manus-storage/frame_111_aeda817f.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_112.jpg -> /manus-storage/frame_112_209ff443.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_113.jpg -> /manus-storage/frame_113_ae8b66ba.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_114.jpg -> /manus-storage/frame_114_1b7369b9.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_115.jpg -> /manus-storage/frame_115_6908c3fd.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_116.jpg -> /manus-storage/frame_116_cdba1112.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_117.jpg -> /manus-storage/frame_117_edf90ad2.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_118.jpg -> /manus-storage/frame_118_a15edbd9.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_119.jpg -> /manus-storage/frame_119_c9d2fa47.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_120.jpg -> /manus-storage/frame_120_19c4b0c6.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_121.jpg -> /manus-storage/frame_121_fb2387b2.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_122.jpg -> /manus-storage/frame_122_a17c9b12.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_123.jpg -> /manus-storage/frame_123_95cc2e2d.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_124.jpg -> /manus-storage/frame_124_1320aea5.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_125.jpg -> /manus-storage/frame_125_b32b0b33.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_126.jpg -> /manus-storage/frame_126_ea8a90e3.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_127.jpg -> /manus-storage/frame_127_74813683.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_128.jpg -> /manus-storage/frame_128_e1f15675.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_129.jpg -> /manus-storage/frame_129_b27361c3.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_130.jpg -> /manus-storage/frame_130_0e6ef18d.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_131.jpg -> /manus-storage/frame_131_05352ad3.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_132.jpg -> /manus-storage/frame_132_6bd392e2.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_133.jpg -> /manus-storage/frame_133_c74edeee.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_134.jpg -> /manus-storage/frame_134_0e3a8f86.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_135.jpg -> /manus-storage/frame_135_5836e6f3.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_136.jpg -> /manus-storage/frame_136_68e09872.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_137.jpg -> /manus-storage/frame_137_e7a7d6a6.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_138.jpg -> /manus-storage/frame_138_8975d9a6.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_139.jpg -> /manus-storage/frame_139_33664fdc.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_140.jpg -> /manus-storage/frame_140_9f619e18.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_141.jpg -> /manus-storage/frame_141_c8c99c8c.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_142.jpg -> /manus-storage/frame_142_ba57b65b.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/chiptech-stopmotion-frames/frame_143.jpg -> /manus-storage/frame_143_c821d606.jpg
+=====================================
+Total: 144, Success: 144, Failed: 0
