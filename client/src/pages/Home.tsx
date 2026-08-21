@@ -22,6 +22,8 @@ import {
 const officialMark = "/manus-storage/chiptech-official-mark_91a6def1.jpg";
 const officialCover = "/manus-storage/chiptech-official-cover_86401156.jpg";
 const circuitrixEvidence = "/manus-storage/chiptech-circuitrix-rvu-record_cb74090e.webp";
+const heroLoop = "/manus-storage/chiptech-hero-loop_ce1b0b56.mp4";
+const prototypeLoop = "/manus-storage/chiptech-prototype-loop_80caca86.mp4";
 
 const navItems = [
   { label: "Manifest", href: "#manifest" },
@@ -156,10 +158,13 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="hero-visual reveal-item">
-            <div className="hero-visual-topline"><span>PUBLIC SIGNAL / 01</span><span>EST. IN RECORDS / 2023</span></div>
-            <div className="cover-frame">
-              <img src={officialCover} alt="Official ChipTech public cover art" />
+            <div className="hero-visual reveal-item">
+              <div className="hero-visual-topline"><span>PUBLIC SIGNAL / 01</span><span>EST. IN RECORDS / 2023</span></div>
+            <div className="cover-frame video-frame">
+              <video className="hero-loop-video" autoPlay muted loop playsInline poster={officialCover} aria-label="Cinematic view of a ChipTech electronics workbench">
+                <source src={heroLoop} type="video/mp4" />
+              </video>
+              <img className="video-static-fallback" src={officialCover} alt="Official ChipTech public cover art" />
               <div className="cover-overlay"><span>CHIPTECH<br />SIGNAL BOARD</span><i /></div>
             </div>
             <div className="hero-note"><span className="mono">READY STATE</span><span>We turn curious hands into tangible work.</span></div>
@@ -217,7 +222,10 @@ export default function Home() {
               <p>From logic circuits to light installations, ChipTech turns technical learning into shared, visible outcomes. It is where a breadboard stops being homework and starts being an argument for what is possible.</p>
               <a className="trace-button copper-button" href="https://www.linkedin.com/company/chiptechrvu" target="_blank" rel="noreferrer"><span>Follow the updates</span><ArrowUpRight size={20} /></a>
             </div>
-            <div className="lab-visual" aria-label="Abstract visualisation of an electronics workbench">
+            <div className="lab-visual" aria-label="Cinematic view of a handmade embedded-systems prototype">
+              <video className="prototype-loop-video" autoPlay muted loop playsInline poster={circuitrixEvidence} aria-label="Handmade microcontroller prototype with cyan signal lighting">
+                <source src={prototypeLoop} type="video/mp4" />
+              </video>
               <div className="lab-glow" />
               <div className="board board-a"><span /><span /><span /><span /><span /></div>
               <div className="board board-b"><i /><i /><i /></div>
