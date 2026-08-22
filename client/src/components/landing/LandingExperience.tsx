@@ -8,8 +8,8 @@ import TactileCircuit from "./TactileCircuit";
 
 type LandingExperienceProps = { onEnter: () => void; onSkip: () => void };
 
-const workshopFilm = "/manus-storage/chiptech-clay-workshop-film-45s_a00fc2b8.mp4";
-const workshopPoster = "/manus-storage/chiptech-clay-workshop-film-poster_8c6785a4.jpg";
+const workshopFilm = "/manus-storage/chiptech-technical-film-15s_80f9d168.mp4";
+const workshopPoster = "/manus-storage/chiptech-technical-film-poster_7b2ee164.jpg";
 
 export default function LandingExperience({ onEnter, onSkip }: LandingExperienceProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -106,8 +106,8 @@ export default function LandingExperience({ onEnter, onSkip }: LandingExperience
       </div>
       <div className="workshop-film-ui">
         <div className="film-brand" aria-label="ChipTech, RV University Bengaluru"><span>CT</span><strong>CHIP<span>TECH</span><small>RVU / BLR</small></strong><i /></div>
-        <div className="film-copy"><p className="kicker">WORKSHOP FILM / 45 SECONDS</p><h1 id="workshop-film-title">A SMALL THING<br />STARTS TO <em>MOVE.</em></h1><p>An original miniature workshop story about the first useful connection.</p></div>
-        <aside className="film-ledger-docket" aria-label="ChipTech workshop film evidence"><span>FIELD LEDGER / 01</span><strong>RVU BUILD BENCH</strong><p>Film record: original workshop study.</p><div><i /> <small>TRACE STATUS: ACTIVE</small></div></aside>
+        <div className="film-copy"><p className="kicker">WORKSHOP FILM / 15 SECONDS</p><h1 id="workshop-film-title">PLACE. CONNECT.<br /><em>TEST.</em></h1><p>An original miniature breadboard test, from LED placement to a clean signal.</p></div>
+        <aside className="film-ledger-docket" aria-label="ChipTech workshop film evidence"><span>FIELD LEDGER / 01</span><strong>LED TEST BENCH</strong><p>Board, breadboard, supply, ground, output.</p><div><i /> <small>TRACE STATUS: TESTED</small></div></aside>
         {!started && <div className="film-prompt"><span className="prompt-line" /><p>{isMobile ? "Tap to play the workshop film" : "Scroll once to start the workshop film"}</p><Button className="paper-cta" onClick={() => void startFilm()}><Play size={16} /> Play film</Button></div>}
         {started && <div className="film-running-controls"><span><Pause size={14} /> WORKSHOP IN PROGRESS</span>{soundBlocked && <button onClick={() => void enableSound()}><Volume2 size={15} /> Enable workshop sound</button>}<button onClick={skip}><SkipForward size={15} /> Skip film</button></div>}
         <div className="film-rail" aria-hidden="true"><span /><span /><span /><span /><span /><span /><span /><span /><span /></div>
