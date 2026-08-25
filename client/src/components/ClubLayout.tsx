@@ -3,6 +3,7 @@ import { useEffect, type ReactNode } from "react";
 import { useLocation } from "wouter";
 import SiteHeader from "./SiteHeader";
 import SiteFooter from "./SiteFooter";
+import EditorialMotion from "./EditorialMotion";
 
 export default function ClubLayout({ children }: { children: ReactNode }) {
   const [location] = useLocation();
@@ -18,5 +19,5 @@ export default function ClubLayout({ children }: { children: ReactNode }) {
     document.title = current.title;
     document.querySelector('meta[name="description"]')?.setAttribute("content", current.description);
   }, [location]);
-  return <div className="club-site"><div className="paper-grain" aria-hidden="true" /><SiteHeader /><main className="club-main" id="main-content" tabIndex={-1}>{children}</main><SiteFooter /></div>;
+  return <div className="club-site"><div className="paper-grain" aria-hidden="true" /><SiteHeader /><EditorialMotion /><main className="club-main" id="main-content" tabIndex={-1}>{children}</main><SiteFooter /></div>;
 }
