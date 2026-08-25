@@ -1,8 +1,8 @@
-# Editorial Cinematic Refinement Tasks
+# Editorial Feature Expansion Tasks
 
-- [x] Define the editorial art direction, type scale, material palette, and motion hierarchy.
-- [x] Recompose the homepage hero as a paced editorial cover with cinematic media and proof cues.
-- [x] Introduce restrained stop-motion accents, scroll reveals, and smooth section transitions.
-- [x] Tune route-level page rhythm so the site reads as one designed publication.
-- [x] Validate desktop and mobile composition, motion reduction, interaction timing, and build output.
-- [x] Save and deliver the editorial cinematic update.
+- [x] Define the user-controlled reel audio contract, photo-essay sequence, and workshop-docket content state.
+- [x] Add a hero sound toggle with accessible labels, visible state, and safe browser-playback fallback.
+- [x] Add the interactive next-workshop docket with hover, keyboard focus, and explicit pending details.
+- [x] Create a stepped-motion project photo essay route and link it from the archive.
+- [x] Validate desktop and mobile controls, hover behavior, motion reduction, links, and build output.
+- [x] Save and deliver the editorial feature expansion.

@@ -12,6 +12,7 @@ import Projects from "./pages/Projects";
 import Ledger from "./pages/Ledger";
 import People from "./pages/People";
 import Join from "./pages/Join";
+import FieldNotes from "./pages/FieldNotes";
 
 function Router() {
   return (
@@ -21,6 +22,7 @@ function Router() {
       <Route path="/ledger" component={Ledger} />
       <Route path="/people" component={People} />
       <Route path="/join" component={Join} />
+      <Route path="/field-notes" component={FieldNotes} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>

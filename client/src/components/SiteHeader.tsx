@@ -9,6 +9,7 @@ import { Link, useLocation } from "wouter";
 const mark = "/manus-storage/chiptech-official-mark_91a6def1.jpg";
 const items = [
   { label: "Projects", href: "/projects" },
+  { label: "Notes", href: "/field-notes" },
   { label: "Ledger", href: "/ledger" },
   { label: "People", href: "/people" },
   { label: "Join", href: "/join" },

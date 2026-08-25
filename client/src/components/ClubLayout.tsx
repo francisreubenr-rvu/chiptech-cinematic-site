@@ -14,6 +14,7 @@ export default function ClubLayout({ children }: { children: ReactNode }) {
       "/ledger": { title: "Workshop Ledger | ChipTech, RV University", description: "A source-linked public ledger of ChipTech workshops, exhibitions, and programme records at RV University." },
       "/people": { title: "People and Practice | ChipTech, RV University", description: "ChipTech's public people structure, working groups, and role accountability model." },
       "/join": { title: "Join ChipTech | RV University", description: "The direct route to contact ChipTech about practical learning, club contribution, and the current joining cycle." },
+      "/field-notes": { title: "Field Notes | ChipTech, RV University", description: "A visual-study format for future ChipTech build photo essays, process documentation, and approved project records." },
     };
     const current = metadata[location] ?? metadata["/"];
     document.title = current.title;

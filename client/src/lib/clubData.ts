@@ -77,3 +77,11 @@ export const teamGroups = [
   { title: "Club leadership", note: "Official committee list pending confirmation", items: ["Club lead", "Core committee"] },
   { title: "Working groups", note: "Proposed structure, not an official roster", items: ["Hardware and embedded systems", "Programmes and community", "Design and documentation"] },
 ];
+
+export const nextWorkshop = {
+  title: "Schedule pending publication",
+  state: "OPEN RECORD",
+  scheduleNote: "No official date, time, venue, topic, or registration link has been supplied for the next workshop.",
+  contactNote: "Email the club to ask when the next verified workshop record will be published.",
+  contactEmail: "club_chiptech@rvu.edu.in",
+} as const;
