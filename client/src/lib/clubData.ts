@@ -22,6 +22,12 @@ export type ClubEvent = {
   href?: string;
 };
 
+export const buildBenchPrinciples = [
+  { serial: "01", title: "Start with the system", detail: "Identify the parts, constraints, and signal path before touching the hardware." },
+  { serial: "02", title: "Test one assumption", detail: "A small observable result beats a grand unmeasured claim." },
+  { serial: "03", title: "Leave a trace", detail: "Document the board, the failure, the revision, and the handoff." },
+];
+
 export const projects: Project[] = [
   {
     id: "catalogue-pending",

@@ -99,7 +99,7 @@ export default function LandingExperience({ onEnter, onSkip }: LandingExperience
   return (
     <section className={`workshop-film-entry ${started ? "film-is-running" : "film-is-ready"} ${finishing ? "film-is-finishing" : ""}`} aria-labelledby="workshop-film-title">
       <div className="workshop-film-frame" aria-label="Original ChipTech workshop stop-motion film">
-        <video ref={videoRef} poster={workshopPoster} playsInline preload="metadata" onEnded={finish} onContextMenu={(event) => event.preventDefault()}>
+        <video ref={videoRef} poster={workshopPoster} playsInline preload="metadata" aria-describedby="film-entry-note" onEnded={finish} onContextMenu={(event) => event.preventDefault()}>
           <source src={workshopFilm} type="video/mp4" />
         </video>
         <div className="film-corner film-corner-tl" aria-hidden="true" /><div className="film-corner film-corner-br" aria-hidden="true" />
@@ -112,7 +112,7 @@ export default function LandingExperience({ onEnter, onSkip }: LandingExperience
         {started && <div className="film-running-controls"><span><Pause size={14} /> WORKSHOP IN PROGRESS</span>{soundBlocked && <button onClick={() => void enableSound()}><Volume2 size={15} /> Enable workshop sound</button>}<button onClick={skip}><SkipForward size={15} /> Skip film</button></div>}
         <div className="film-rail" aria-hidden="true"><span /><span /><span /><span /><span /><span /><span /><span /><span /></div>
       </div>
-      <div className="sr-only"><p>The film shows Nim and Pip, two original workshop creatures, building a small electronics prototype together. It contains no essential text or controls inside the video frame.</p></div>
+      <div className="sr-only" id="film-entry-note"><p>The film shows Nim and Pip, two original workshop creatures, building a simple breadboard LED test together. It contains no essential text or controls inside the video frame. You can skip the film at any time.</p></div>
     </section>
   );
 }

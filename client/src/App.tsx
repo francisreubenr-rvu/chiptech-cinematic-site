@@ -8,11 +8,19 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Ledger from "./pages/Ledger";
+import People from "./pages/People";
+import Join from "./pages/Join";
 
 function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
+      <Route path="/projects" component={Projects} />
+      <Route path="/ledger" component={Ledger} />
+      <Route path="/people" component={People} />
+      <Route path="/join" component={Join} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>

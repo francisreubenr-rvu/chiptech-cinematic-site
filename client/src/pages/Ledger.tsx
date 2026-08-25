@@ -1,0 +1,9 @@
+/** Workshop Ledger route: source-linked club programme history and explicit future-event publishing gap. */
+import { ArrowUpRight, CalendarDays, FileCheck2, MapPin, NotebookTabs } from "lucide-react";
+import ClubLayout from "@/components/ClubLayout";
+import SectionHeading from "@/components/SectionHeading";
+import { events } from "@/lib/clubData";
+
+export default function Ledger() {
+  return <ClubLayout><section className="route-hero ledger-hero"><div className="route-mark">LEDGER<br />02</div><SectionHeading serial="02 / WORKSHOP LEDGER" eyebrow="DATED, LINKED, AND DELIBERATELY BORING ABOUT FACTS" title={<>THE CLUB LEAVES<br /><em>A TRACE.</em></>} detail="A maker community is its workshops, exhibitions, experiments, and people in the room. Each published record below points outward to the source." /><div className="ledger-stat-line"><span><FileCheck2 size={17} /> PUBLIC RECORDS</span><strong>02 VERIFIED</strong><span><CalendarDays size={17} /> FUTURE SCHEDULE</span><strong>NOT YET PUBLISHED</strong></div></section><section className="route-section ledger-timeline"><div className="timeline-note"><NotebookTabs size={23} /><p>Official event pages and institutional posts are the baseline. Social highlights may decorate a record, but they do not replace one.</p></div><ol>{events.map((event, index) => <li key={event.id} className={event.kind === "upcoming_placeholder" ? "timeline-pending" : "timeline-record"}><div className="timeline-node"><span>{String(index + 1).padStart(2, "0")}</span></div><article><div className="timeline-meta"><time>{event.dateLabel}</time><span><MapPin size={13} /> {event.location}</span></div><h2>{event.title}</h2><p>{event.summary}</p>{event.href ? <a href={event.href} target="_blank" rel="noreferrer">Open source record <ArrowUpRight size={17} /></a> : <button disabled>Programme pending official publication <CalendarDays size={16} /></button>}</article></li>)}</ol></section></ClubLayout>;
+}

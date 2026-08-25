@@ -101,3 +101,10 @@ The current user-supplied specification supersedes the earlier Signal Nocturne d
 - The ChipTech lockup is treated as a large engineered object: microchip mark, high-weight clipped wordmark, cyan route line, and `RVU / BLR` instrument sublabel.
 - Cyan is restricted to active signal paths, proof status, navigation, and key actions. Copper denotes physical work, solder, paper registration, and human intervention.
 - Film copy and controls remain outside the moving image aperture. The film contains no essential typography, captions, or controls.
+
+## Style Decisions: Evidence-Led Route Audit
+
+- Cyan is never a broad page fill. It marks active signal paths, proof status, navigation state, key actions, rare headline voltage, and trace nodes.
+- Every route contains one dominant ledger artifact: an RVU-linked record, a hardware or workshop surface, a source docket, or an explicit documented gap.
+- A recurring trace-and-ledger grammar, including numbered nodes, compact source strips, instrument rails, and aperture frames, organizes routes before cards are introduced.
+- Display headlines vary by route. The archive carries a large declaration, while the ledger and people routes use more compact instrument-style declarations and stronger documentary evidence.
