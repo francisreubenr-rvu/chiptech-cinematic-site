@@ -6,13 +6,16 @@ import { Drawer, DrawerClose, DrawerContent, DrawerDescription, DrawerHeader, Dr
 import { track } from "@/lib/analytics";
 import { Link, useLocation } from "wouter";
 
-const mark = "/manus-storage/chiptech-official-mark_91a6def1.jpg";
 const items = [
-  { label: "Projects", href: "/projects" },
-  { label: "Notes", href: "/field-notes" },
-  { label: "Ledger", href: "/ledger" },
+  { label: "Events", href: "/events" },
+  { label: "News", href: "/news" },
+  { label: "Blogs", href: "/blogs" },
+  { label: "Vlogs", href: "/vlogs" },
+  { label: "Gallery", href: "/photography" },
+  { label: "Awards", href: "/awards" },
+  { label: "Rankings", href: "/leaderboards" },
   { label: "People", href: "/people" },
-  { label: "Join", href: "/join" },
+
 ];
 
 export default function SiteHeader() {
@@ -34,7 +37,7 @@ export default function SiteHeader() {
 
   return (
     <header className={`club-header ${visible ? "club-header-visible" : "club-header-hidden"}`}>
-      <Link className="paper-logo" href="/" onClick={() => navigated("/")} aria-label="ChipTech home"><img src={mark} alt="ChipTech mark" /><span>CHIPTECH<small>RVU / BLR</small></span></Link>
+      <Link className="paper-logo" href="/" onClick={() => navigated("/")} aria-label="ChipTech home"><img className="official-logo" src="/images/social/logo.jpg" alt="ChipTech logo"/><span>CHIPTECH<small>RVU / BLR</small></span></Link>
       <nav className="club-nav" aria-label="Primary navigation">{items.map((item) => <Link className={location === item.href ? "is-current" : ""} href={item.href} onClick={() => navigated(item.href)} key={item.href}>{item.label}</Link>)}</nav>
       <Button asChild className="nav-join"><Link href="/join" onClick={() => navigated("/join")}>Join ChipTech <ArrowUpRight size={15} /></Link></Button>
       <Drawer>
@@ -42,6 +45,7 @@ export default function SiteHeader() {
         <DrawerContent className="chip-drawer">
           <DrawerHeader><DrawerTitle>ChipTech navigation</DrawerTitle><DrawerDescription>Jump directly to the club information you need.</DrawerDescription></DrawerHeader>
           <nav className="drawer-nav" aria-label="Mobile navigation">{items.map((item) => <DrawerClose asChild key={item.href}><Link href={item.href} onClick={() => navigated(item.href)}>{item.label}<ArrowUpRight size={17} /></Link></DrawerClose>)}</nav>
+          <DrawerClose asChild><Link className="drawer-close" href="/join">Join ChipTech <ArrowUpRight size={17}/></Link></DrawerClose>
           <DrawerClose asChild><button className="drawer-close">Close <X size={17} /></button></DrawerClose>
         </DrawerContent>
       </Drawer>

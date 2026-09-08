@@ -74,7 +74,7 @@ export const events: ClubEvent[] = [
 
 export const teamGroups = [
   { title: "Faculty advisor", note: "Official appointment pending confirmation", items: ["Role and contact to be added by ChipTech"] },
-  { title: "Club leadership", note: "Official committee list pending confirmation", items: ["Club lead", "Core committee"] },
+  { title: "Aryan Dubey", note: "President, ChipTech · listed on his LinkedIn profile. RV University, 2025–2029.", href: "https://in.linkedin.com/in/kabir-aryan-dubey", items: ["Android development & UI/UX design", "RCAi: AI-assisted crash analysis"] },
   { title: "Working groups", note: "Proposed structure, not an official roster", items: ["Hardware and embedded systems", "Programmes and community", "Design and documentation"] },
 ];
 

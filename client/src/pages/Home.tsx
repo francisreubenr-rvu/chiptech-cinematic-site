@@ -1,38 +1,53 @@
-/** Ledger and Workshop homepage: the film is an optional opening note, while the page answers what ChipTech does, records, and needs. */
-import { useState } from "react";
-import { ArrowRight, ArrowUpRight, BadgeCheck, BookOpenCheck, CircuitBoard, ExternalLink, FileWarning, UsersRound } from "lucide-react";
-import { Link } from "wouter";
-import LandingExperience from "@/components/landing/LandingExperience";
-import ClubLayout from "@/components/ClubLayout";
-import SectionHeading from "@/components/SectionHeading";
-import { buildBenchPrinciples, events, projects, teamGroups } from "@/lib/clubData";
-import { track } from "@/lib/analytics";
-import HeroReel from "@/components/HeroReel";
-import NextWorkshopDocket from "@/components/NextWorkshopDocket";
-
-const mark = "/manus-storage/chiptech-official-mark_91a6def1.jpg";
-const heroLoop = "/manus-storage/chiptech-hero-loop_ce1b0b56.mp4";
-const evidenceImage = "/manus-storage/chiptech-circuitrix-rvu-record_cb74090e.webp";
+import ChaseText from '@/components/ChaseText';
+import { useEffect, useRef, useState } from 'react';
+import { ArrowDown, ArrowUpRight, Power, Plus } from 'lucide-react';
+import { Link } from 'wouter';
+import {EventFeature, ClubChannels} from './LiveClub';
+import ClubLayout from '@/components/ClubLayout';
+import CircuitSculpture from '@/components/CircuitSculpture';
+import WorkbenchFilm from '@/components/WorkbenchFilm';
+import { events } from '@/lib/clubData';
 
 export default function Home() {
-  const [showIntro, setShowIntro] = useState(() => window.localStorage.getItem("chiptech-intro-seen") !== "true" && new URLSearchParams(window.location.search).get("view") !== "home");
-  const enterHomepage = () => {
-    window.localStorage.setItem("chiptech-intro-seen", "true");
-    setShowIntro(false);
-    window.requestAnimationFrame(() => document.querySelector("#home")?.scrollIntoView({ behavior: "smooth", block: "start" }));
-  };
-
-  if (showIntro) return <div className="tactile-site"><div className="paper-grain" aria-hidden="true" /><LandingExperience onEnter={enterHomepage} onSkip={enterHomepage} /></div>;
-
-  return <ClubLayout><section className="editorial-hero" id="home" aria-labelledby="index-hero-title"><HeroReel src={heroLoop} poster={evidenceImage} label="Electronics bench editorial reel" /><div className="editorial-film-grade" aria-hidden="true" /><div className="editorial-masthead"><span>CHIPTECH / FIELD EDITION</span><span>RV UNIVERSITY · BENGALURU</span><span>ISSUE 01 / BUILD CULTURE</span></div><div className="editorial-brand-artifact" aria-label="ChipTech, RV University Bengaluru"><img src={mark} alt="" /><div><strong>CHIP<span>TECH</span></strong><small>RVU / BLR · BUILD CULTURE</small></div><i /></div><div className="editorial-hero-copy"><p className="kicker">A STUDENT HARDWARE PUBLICATION</p><h1 id="index-hero-title">MAKE THE<br />SYSTEM <em>LEGIBLE.</em></h1><p>ChipTech is a technical community at RV University for students who want to learn circuits, embedded systems, hardware prototyping, and the practice of turning a test into a useful record.</p><div className="index-actions"><Link href="/projects">Open the project archive <ArrowRight size={18} /></Link><Link href="/join" onClick={() => track("join_cta_clicked", { placement: "editorial_hero" })}>Find the join route <ArrowUpRight size={18} /></Link></div></div><aside className="editorial-proof-docket"><span><BadgeCheck size={14} /> SOURCE DOCKET / 01</span><strong>Circuitrix: Light Up RVU</strong><time dateTime="2023-12-20">Published 20 Dec 2023</time><a href="https://rvu.edu.in/events/circuitrix-light-up-rvu/" target="_blank" rel="noreferrer">Read RVU record <ExternalLink size={15} /></a></aside><div className="editorial-issue-tag">THE<br />BUILD<br />BENCH</div><div className="editorial-scroll-cue"><i /> <span>Scroll for the record</span></div></section><NextWorkshopDocket />
-
-    <section className="index-manifesto route-section"><SectionHeading serial="01 / BUILD BENCH" eyebrow="WHY CHIPTECH EXISTS" title={<>THE BENCH IS WHERE<br />IDEAS <em>GET HONEST.</em></>} detail="The club is not a claim about innovation. It is a place to make a signal path visible, test an assumption, and leave the next builder more context than you found." /><div className="principle-grid">{buildBenchPrinciples.map((principle) => <article key={principle.serial}><span>{principle.serial}</span><h2>{principle.title}</h2><p>{principle.detail}</p></article>)}</div></section>
-
-    <section className="index-archive route-section"><div className="index-section-split"><SectionHeading serial="02 / BUILD ARCHIVE" eyebrow="WHAT THE CLUB HAS BUILT" title={<>SHOW THE BOARD.<br />SHOW THE <em>REVISION.</em></>} detail="The archive is deliberately conservative until official artifacts are released." /><div className="archive-route-links"><Link href="/projects" className="section-route">Browse archive <ArrowRight size={17} /></Link><Link href="/field-notes" className="section-route">Read visual field notes <ArrowRight size={17} /></Link></div></div><div className="index-archive-grid">{projects.map((project) => <article className="index-project-record" key={project.id}><div><span className="record-state"><FileWarning size={14} /> {project.status.replaceAll("_", " ")}</span><h2>{project.title}</h2><p>{project.summary}</p></div><dl><div><dt>Record category</dt><dd>{project.category}</dd></div><div><dt>Update state</dt><dd>{project.updatedAt}</dd></div></dl><div className="record-tags">{project.technologies.map((technology) => <span key={technology}>{technology}</span>)}</div></article>)}<article className="archive-ask"><CircuitBoard size={28} /><h2>Have a board, trace, or field note?</h2><p>Approved project photography, repositories, and short technical notes can turn this record structure into a working archive.</p><Link href="/field-notes">Read the visual-study template <ArrowUpRight size={16} /></Link></article></div></section>
-
-    <section className="index-ledger route-section"><div className="index-section-split"><SectionHeading serial="03 / WORKSHOP LEDGER" eyebrow="WHAT HAS HAPPENED" title={<>EACH EVENT LEAVES<br />A <em>TRAIL.</em></>} detail="The ledger starts with institutional records. Future programmes remain visibly pending until ChipTech publishes the details." /><Link href="/ledger" className="section-route">Read full ledger <ArrowRight size={17} /></Link></div><div className="index-ledger-grid"><figure className="ledger-image"><img src={evidenceImage} alt="RV University post documenting Circuitrix 2.0" /><figcaption>RVU RECORD / CIRCUITRIX 2.0</figcaption></figure><div className="ledger-record-list">{events.slice(0, 2).map((event) => <article key={event.id}><span>{event.dateLabel}</span><h2>{event.title}</h2><p>{event.summary}</p><a href={event.href} target="_blank" rel="noreferrer">Source record <ArrowUpRight size={15} /></a></article>)}</div></div></section>
-
-    <section className="index-people route-section"><div className="people-matter"><UsersRound size={30} /><p className="kicker">PEOPLE AND PRACTICE</p><h2>BUILD WITH PEOPLE WHO KEEP <em>NOTES.</em></h2><p>ChipTech needs hands at the bench and hands on the documentation. The public roster is awaiting confirmation, but the working structure is already clear.</p><Link href="/people">Read the people structure <ArrowRight size={17} /></Link></div><div className="people-compact-list">{teamGroups.map((group, index) => <article key={group.title}><span>{String(index + 1).padStart(2, "0")}</span><div><h3>{group.title}</h3><p>{group.note}</p></div></article>)}</div></section>
-
-    <section className="index-join"><div className="join-index-mark">CHIPTECH<br />WORKS<br />IN PUBLIC</div><div><p className="kicker">JOIN THE BUILD BENCH</p><h2>BRING A QUESTION.<br /><em>LEAVE A TRACE.</em></h2><p>Whether you are curious about a first circuit, an embedded system, a data sheet, a workshop, or a documentation problem, the club needs useful curiosity more than polished credentials.</p><Link href="/join" onClick={() => track("join_cta_clicked", { placement: "index_join" })}>Find the direct route <ArrowRight size={18} /></Link></div><aside><BookOpenCheck size={25} /><strong>Recruitment schedule</strong><span>Pending official publication</span></aside></section></ClubLayout>;
+  const [powered, setPowered] = useState(true);
+  const hero = useRef<HTMLElement>(null);
+  useEffect(() => {
+    const mq = matchMedia('(prefers-reduced-motion: reduce)');
+    let request = 0;
+    const update = () => { cancelAnimationFrame(request); request = requestAnimationFrame(() => {
+      if (hero.current) hero.current.style.setProperty('--hero-drift', mq.matches ? '0deg' : `${Math.min(scrollY / 140, 6)}deg`);
+    }); };
+    addEventListener('scroll', update, {passive:true}); mq.addEventListener('change', update);
+    return () => { cancelAnimationFrame(request); removeEventListener('scroll', update); mq.removeEventListener('change', update); };
+  }, []);
+  return <ClubLayout>
+    <section className="signal-hero" ref={hero} aria-labelledby="index-hero-title">
+      <div className="signal-hero-meta"><span><i/> CHIPTECH · RV UNIVERSITY</span><span>BENGALURU, INDIA</span></div>
+      <div className="signal-hero-grid">
+        <div className="signal-hero-copy"><p className="signal-label">FOR THE CURIOUS. FOR THE HANDS-ON.</p><h1 id="index-hero-title">SMALL COMPONENTS.<br/><span>BIG POSSIBILITIES.</span></h1><p className="signal-lead">A circuit. A prototype. Your next big question.<br/>We’re ChipTech, RV University’s community for electronics, embedded systems, and learning by making.</p><div className="signal-actions"><Link className="signal-button" href="/join">Join ChipTech <ArrowUpRight size={20}/></Link><a className="signal-text-link" href="#inside">See what we’re about <ArrowDown size={16}/></a></div></div>
+        <div className="signal-object"><div className="object-orbit" aria-hidden="true"/><CircuitSculpture powered={powered}/><div className="object-caption"><span>IDEAS NEED CONNECTIONS.</span><button className="power-switch" aria-pressed={powered} onClick={()=>setPowered(p=>!p)}><Power size={17}/>{powered?'Power off':'Power on'}</button></div></div>
+      </div>
+      <div className="signal-hero-foot"><ChaseText className="hero-chase" text="LESS WATCHING. MORE FIGURING IT OUT."/><a href="#inside" aria-label="Explore ChipTech"><ArrowDown size={22}/></a><span>SCROLL TO EXPLORE<br/>01 — 05</span></div>
+    </section>
+    <section className="signal-section home-live"><EventFeature/><ClubChannels/></section>
+    <div className="signal-ribbon" aria-label="Club interests"><span>CIRCUITS</span><Plus/><span>EMBEDDED SYSTEMS</span><Plus/><span>HARDWARE</span><Plus/><span>HUMAN CURIOSITY</span></div>
+    <section id="inside" className="signal-section signal-intro" data-reveal>
+      <div className="signal-section-label"><span>01 / THE CLUB</span><span>IDEAS ARE BETTER WITH COMPANY.</span></div>
+      <div className="signal-intro-grid"><h2>THE BEST WAY<br/>TO LEARN IT?<br/><em>BUILD IT.</em></h2><div><p className="signal-large-copy">For the moment a diagram becomes a circuit. And a room full of strangers becomes your team.</p><p>ChipTech brings together students interested in circuits, embedded systems, and hardware prototyping. Bring the question you haven’t solved yet. Start small. Learn through the attempt.</p><Link className="signal-text-link" href="/people">Meet the people <ArrowUpRight size={18}/></Link></div></div>
+      <div className="signal-photo-strip"><figure><img src="/images/ideathon-room.webp" alt="Students gathered during Ideathon 3.0" loading="lazy"/><figcaption>IDEATHON 3.0 / ROUND 1</figcaption></figure><figure><img src="/images/ideathon-team.webp" alt="Participants at Ideathon 3.0" loading="lazy"/><figcaption>IDEATHON 3.0 / ROUND 2</figcaption></figure><div className="photo-strip-note"><span>OFF THE SCREEN.<br/>IN THE ROOM.</span><a href="/photography">Explore the photo story <ArrowUpRight size={20}/></a></div></div>
+    </section>
+    <section className="signal-section signal-practice" data-reveal>
+      <div className="signal-section-label"><span>02 / THE PRACTICE</span><span>A SMALL START IS STILL A START.</span></div>
+      <div className="signal-practice-grid"><div><h2>FROM “WHAT IF”<br/>TO <em>“IT WORKS.”</em></h2><p className="signal-practice-intro">Making is a loop. Each attempt gives you a better question.</p><ol className="signal-steps"><li><span>01</span><div><h3>Pull it apart.</h3><p>Understand the components and the idea connecting them.</p></div></li><li><span>02</span><div><h3>Try one thing.</h3><p>Build a small version. Observe what happens. Change what doesn’t work.</p></div></li><li><span>03</span><div><h3>Pass it on.</h3><p>Keep the diagram, the mistake, and the fix. Help the next person start.</p></div></li></ol></div><div className="signal-film-wrap"><WorkbenchFilm/><p className="signal-caption">A complete 9 V series circuit: 1 kΩ resistor, red LED, and battery return.</p></div></div>
+    </section>
+    <section id="events" className="signal-section signal-events" data-reveal>
+      <div className="signal-section-label"><span>03 / IN THE ROOM</span><Link href="/events">Upcoming events <ArrowUpRight size={16}/></Link></div>
+      <div className="signal-events-title"><h2>GOOD IDEAS<br/>DON’T STAY <em>QUIET.</em></h2><p>Present it. Question it. Take it further.<br/>A glimpse into the community, from the event archive.</p></div>
+      <Link href="/photography" className="signal-event-feature"><img src="/images/ideathon-feature.webp" alt="Ideathon 3.0 event participants presenting their work" loading="lazy"/><div><span className="signal-label">FROM THE CLUB PHOTO ARCHIVE</span><h3>IDEATHON 3.0</h3><span className="feature-link">Step inside the event <ArrowUpRight size={22}/></span></div></Link>
+      <div className="signal-event-rows">{events.slice(0,2).map((e,i)=><a key={e.id} href={e.href} target="_blank" rel="noreferrer"><span className="event-number">0{i+1}</span><h3>{e.title}</h3><span>{e.dateLabel}</span><ArrowUpRight size={24}/></a>)}</div>
+      <p className="signal-event-note">Looking for the next event? <Link href="/join">Ask the club <ArrowUpRight size={14}/></Link> · Ideathon 4.0 takes place on September 25.</p>
+    </section>
+    <section className="signal-section signal-people" data-reveal><div className="signal-section-label"><span>04 / PEOPLE, NOT JUST PARTS</span><span>THE HUMAN SIDE OF HARDWARE.</span></div><div className="signal-people-grid"><h2>FIND YOUR<br/><em>KIND OF CURIOUS.</em></h2><article className="signal-person"><span className="person-photo"><img src="/images/social/team-1.jpg" alt="Aryan Dubey, ChipTech President" loading="lazy"/></span><div><span className="signal-label">CLUB LEADERSHIP</span><h3>Aryan Dubey</h3><p>President, ChipTech <span className="person-attribution">— announced by the club.</span></p><p>RV University, 2025–2029. His work spans Android development, UI/UX design, and AI-assisted software analysis.</p><a className="signal-text-link" href="/people" target="_blank" rel="noreferrer">Meet the core team <ArrowUpRight size={18}/></a></div></article></div></section>
+    <section className="signal-section signal-join" data-reveal><div className="signal-section-label"><span>05 / YOUR NEXT CONNECTION</span><span>CHIPTECH / RVU</span></div><div className="signal-join-grid"><h2>GOT A<br/><em>“WHAT IF”?</em></h2><div><p className="signal-large-copy">That’s a good place to start.</p><p>Tell us what you want to learn, build, or figure out. Ask about joining and upcoming sessions.</p><Link href="/join" className="signal-button">Find your way in <ArrowUpRight size={21}/></Link></div></div><div className="signal-faq"><details><summary>Just getting started with electronics?<Plus size={20}/></summary><p>Start the conversation with the club. Tell them your experience level and what you’d like to try, and ask which upcoming activity would suit you.</p></details><details><summary>When is the next workshop?<Plus size={20}/></summary><p>Ideathon 4.0 is scheduled for September 25, 2026. Visit Events for the programme and registration details. Email club_chiptech@rvu.edu.in for other upcoming activities.</p></details></div></section>
+  </ClubLayout>;
 }
